@@ -12,7 +12,7 @@ img_sh =  ndimage.shift(img, shift=[-100,-50, 0])
 
 # save image
 imgs = Image.fromarray(img_sh)
-imgs.save('car-rgb-shifted.png')
+imgs.save('car-op-rgb-shifted.png')
 
 # set plot size in inch
 plt.figure(figsize=(10, 5), dpi=140)

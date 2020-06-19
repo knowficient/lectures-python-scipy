@@ -12,7 +12,7 @@ img_rt =  ndimage.rotate(img, angle=90.0, reshape=False)
 
 # save image
 imgs = Image.fromarray(img_rt)
-imgs.save('car-rgb-rotate.png')
+imgs.save('car-op-rgb-rotate.png')
 
 # set plot size in inch
 plt.figure(figsize=(10, 5), dpi=140)

@@ -13,7 +13,7 @@ img_zm =  ndimage.zoom(img, zoom=(2,2,1), order=0)
 
 # save image
 imgz = Image.fromarray(img_zm)
-imgz.save('car-rgb-zoom.png')
+imgz.save('car-op-rgb-zoom.png')
 
 # set plot size in inch
 plt.figure(figsize=(10, 5), dpi=140)
